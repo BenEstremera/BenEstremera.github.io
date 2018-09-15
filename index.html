@@ -1,11 +1,203 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Ben Estremera</title>
-</head>
-<body>
-	<p>Hello!</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Benjamin Estremera personal site">
+    <meta name="author" content="Benjamin Estremera">
+    <link rel="icon" href="images/favicon.ico">
 
-</body>
+    <title>Resume Site Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->    
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/style.css">
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">BE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About Me</a>
+          </li>
+		  
+		  <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+		  
+		  <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+		  
+        </ul>
+		        
+		
+      </div>
+    </nav>
+
+    <main>
+      
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="col text-center" id="jumboName">Benjamin Estremera</h1>         
+        </div>
+      </div>
+
+      <div class="container">
+        
+		<section id="aboutMe">
+			<div class="row">
+				<h2 class="col siteHeader">About Me</h2>
+			</div>
+			
+			<div class="row">
+				<div class="col">
+					<img src="images/Estremera.jpg" id="mainPhoto" alt="Photo of Me" width="250" height="300">
+				</div>
+				<div class="col-9" id="aboutTextDiv">				
+					<p>Hello, my name is Benjamin Estremera. I am a technology professional looking for a new position in the fields of software development or cybersecurity. </p>
+				</div>
+			</div>
+		</section>
+		
+		<section id="resume">
+			<div class="row">
+				<h2 class="col siteHeader" id="resume">Resume</h2>
+			</div>
+			<div class="row">
+				<div class="col"> 
+					<p>To download a pdf version of my resume, please <a href="" target="_blank">click here</a>. My phone number is not included in this version for privacy reasons. 
+					If you would like to contact me by phone, please ask for it using the email address located in the <a href="#contact">Contact Me</a> section of the website.</p>
+				</div>
+			</div>
+			<div class="row">
+				<h3 class="col siteHeader" id="eduHeader">Education</h3>
+			</div>
+			<div class="row">
+				<div class="col"> 
+					<p>The University of Alabama, Tuscaloosa, Alabama<br>
+						GPA: 3.7/4.0, <i>magna cum lade</i><br>
+						<b>Bachelor of Science in Computer Science</b> May 2016<br>
+					</p>
+				</div>				
+			</div>
+			
+			<div class="row">
+				<h3 class="col siteHeader">Skills</h3>
+			</div>
+			<div class="row">
+				<div class="col"> 
+					<ul>
+						<li>Experience with Java, Perl, Python, Visual Basic .NET, and SQL</li>
+						<li>Some experience with HTML, CSS, ASP.NET, Android development, and Linux</li>
+						<li>Proficient in elementary Japanese and Spanish</li>						
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<h3 class="col siteHeader">Relevant Experience</h3>
+			</div>
+			<div class="row">
+				<div class="col"> 
+					<p><b>.NET Developer</b> June 2016 - June 2017 <br>
+					Insuresoft<br>
+					Tuscaloosa, Alabama</p>
+					<ul>
+						<li>Worked in a team of developers to implement new designs and fix bugs in the Diamond insurance
+						software platform using ASP .NET with Visual Basic .NET and SQL</li>
+						<li>Assisted business analysts with explaining software issues to clients</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col">
+					<p>
+					<b>Computer Programmer Intern</b> May 2015 - August 2015<br>
+					Mercedes-Benz U.S. International Inc.<br>
+					Tuscaloosa, Alabama
+					</p>
+					<ul>
+						<li>Designed and created software tools to automate search and comparison of vehicle manufacturing data</li>
+						<li>Assisted co-workers in improving  existing software features and code distribution methods</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<h3 class="col siteHeader">Additional Experience</h3>
+			</div>
+			<div class="row">
+				<div class="col"> 
+					<p><b>Assistant Language Teacher</b> September 2017 - February 2018<br>
+					Heart Corporation<br>
+					Kawaguchi, Saitama, Japan</p>
+					<ul>
+						<li>Assisted in teaching English as a foreign language to students in Japanese public elementary and high schools</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col"> 
+					<p><b>Laboratory Courier</b> June 2012 - August 2012<br>
+					Athens-Limestone Hospital<br>
+					Athens, Alabama</p>
+					<ul>
+						<li>Safely delivered time-sensitive biological material, medical supplies, and mail in and around Athens, Alabama and southern Tennessee</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<h3 class="col siteHeader">Study Abroad Experience</h3>
+			</div>
+			<div class="row">
+				<div class="col"> 
+					<p>The University of Alabama in Japan: Culture and Lifestyle, June 2013<br>
+					Chiba University, Chiba, Japan</p>
+				</div>
+			</div>
+			
+		</section> <!-- End resume section --> 
+		
+		<section id="contact">
+			<div class="row">
+				<h2 class="col siteHeader">Contact</h2>
+			</div>
+			
+			<div class="row">
+				<div class="col"> <!-- Extra spans to slow automated email scraping-->
+					<p>To contact me, please email me at contact<span>@</span>benjaminestremera<span>.com</span>, or message me on my <a href="https://www.linkedin.com/in/benjaminestremera/" target="_blank">LinkedIn profile.</a></p>
+				</div>
+			</div>
+		</section>
+		        
+
+      </div> <!-- end container -->
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; 2018 Benjamin Estremera</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript
+    ================================================== -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+  </body>
 </html>

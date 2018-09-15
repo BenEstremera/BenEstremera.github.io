@@ -1,0 +1,77 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+		body{
+		  /* margin-bottom:3.5rem; */
+		}
+		
+		.jumbotron{
+			display: flex;
+			align-items: center;
+			background-image: url('../images/tokyo.jpg');
+			background-size: cover;
+			color: #ffffff;
+			height: 1000px;
+			text-shadow: 0.25px 0.25px 0.25px #000000;
+
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		
+		#jumboName{
+			background-color:black;
+			padding: 12px 24px;
+			font-size: 24px;
+			letter-spacing: 7px;
+			margin: auto;
+			width: 450px;
+			margin-bottom:3.5rem;				
+				
+		}
+		
+		#mainPhoto{			
+			/* border-radius: 100%;				  */
+		}
+		
+		#resume{
+			margin-top: 50px;
+		}
+		
+		#aboutTextDiv{
+			margin: auto; 
+			text-align:center;
+		}
+		
+		.siteHeader{
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		
+		ul {
+			//list-style-position: inside; 
+			//text-align:left;
+			margin-left: -1rem;
+		}
+		
+		a, a:hover {
+			color:#008000;
+		}		
+		
+		
+		h3{
+			font-size: 1.6rem;
+		}
+		
+		#navbar{ 
+			padding-left: 1rem;
+		}
+		
+		footer{
+			margin-top:5%;
+		}
+		
+		/* Turn off parallax scrolling for tablets and phones */
+		@media only screen and (max-device-width: 1024px) {
+			.jumbotron {
+				background-attachment: scroll;
+			}
+		}

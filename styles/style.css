@@ -32,7 +32,7 @@
 			/* border-radius: 100%;				  */
 		}
 		
-		#resume{
+		#resumeTitle{
 			margin-top: 50px;
 		}
 		
@@ -47,8 +47,8 @@
 		}
 		
 		ul {
-			//list-style-position: inside; 
-			//text-align:left;
+			/*list-style-position: inside; 
+			text-align:left;*/
 			margin-left: -1rem;
 		}
 		

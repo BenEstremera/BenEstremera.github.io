@@ -73,6 +73,10 @@ footer{
 	margin-top:5%;
 }
 
+.skillsRow{
+	margin-bottom: 1rem;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
 	.jumbotron {

@@ -3,11 +3,11 @@
 */
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-body{
-  /* margin-bottom:3.5rem; */
+body {
+	/* margin-bottom:3.5rem; */
 }
 
-.jumbotron{
+.jumbotron {
 	display: flex;
 	align-items: center;
 	background-image: url('../images/tokyo.jpg');
@@ -21,31 +21,45 @@ body{
 	background-repeat: no-repeat;
 }
 
-#jumboName{
-	background-color:black;
+#jumboName {
+	background-color: black;
 	padding: 12px 24px;
 	font-size: 24px;
 	letter-spacing: 7px;
 	margin: auto;
 	width: 450px;
-	margin-bottom:3.5rem;				
-		
+	margin-bottom: 3.5rem;
+
 }
 
-#mainPhoto{			
-	/* border-radius: 100%;				  */
+#mainPhoto {
+	/* border-radius: 100%; */
+	margin-left: 1rem;
 }
 
-#resumeTitle{
+@media (max-width: 400px) {
+	#imgDiv {
+		margin: auto;
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-width: 380px) {
+	#mainPhoto {
+		margin-left: unset;
+	}
+}
+
+#resumeTitle {
 	margin-top: 50px;
 }
 
-#aboutTextDiv{
-	margin: auto; 
-	text-align:center;
+#aboutTextDiv {
+	margin: auto;
+	text-align: center;
 }
 
-.siteHeader{
+.siteHeader {
 	margin-top: 50px;
 	margin-bottom: 30px;
 }
@@ -56,24 +70,25 @@ ul {
 	margin-left: -1rem;
 }
 
-a, a:hover {
-	color:#008000;
-}		
+a,
+a:hover {
+	color: #008000;
+}
 
 
-h3{
+h3 {
 	font-size: 1.6rem;
 }
 
-#navbar{ 
+#navbar {
 	padding-left: 1rem;
 }
 
-footer{
-	margin-top:5%;
+footer {
+	margin-top: 5%;
 }
 
-.skillsRow{
+.skillsRow {
 	margin-bottom: 1rem;
 }
 

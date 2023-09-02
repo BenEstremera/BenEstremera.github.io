@@ -11,6 +11,14 @@ body {
 	display: flex;
 	align-items: center;
 	background-image: url('../images/tokyo.jpg');
+	background-image: -webkit-image-set(
+		url('../images/tokyo.webp') type('image/webp'),
+		url('../images/tokyo.jpg') type('image/jpeg')
+  	);
+	background-image: image-set(
+		url('../images/tokyo.webp') type('image/webp'),
+		url('../images/tokyo.jpg') type('image/jpeg')
+  	);
 	background-size: cover;
 	color: #ffffff;
 	height: 1000px;
